@@ -1,6 +1,6 @@
 services:
   kafka:
-    image: bitnami/kafka:3.7
+    image: bitnamilegacy/kafka:3.7
     container_name: devsecops-lab-kafka
     ports:
       - "9092:9092"
